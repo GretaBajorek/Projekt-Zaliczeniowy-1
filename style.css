@@ -51,33 +51,26 @@ a {
 
 .landing-page-container {
 	height: calc(100vh - 50px);
-}
-
-.landing-page-img {
 	background-image: url('../images/background-image.jpg');
-	height: calc(100vh - 50px);
 	background-position: center;
 	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .landing-page-img__shadow {
-	background-image: url('../images/Cień\ na\ tło.jpg');
-	height: calc(100vh - 50px);
-	opacity: 0.15;
+	background-color: rgba(200, 200, 200, 0.15);
+	height: 100%;
 	width: 100%;
-	position: absolute;
+	display: flex;
+	align-items: center;
 }
 
 .landing-page-content {
 	color: #ffffff;
-	height: 218px;
+	height: 230px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: flex-start;
 	font-weight: 700;
 	width: 960px;
 	margin: 0 auto;
@@ -99,7 +92,6 @@ a {
 }
 
 .landing-page-content__button {
-	width: fit-content;
 	padding: 10px 56px;
 	text-align: center;
 	font-weight: 700;
@@ -109,7 +101,6 @@ a {
 	color: #ffffff;
 	background-color: transparent;
 	transition: color 1s;
-	z-index: 3;
 }
 
 .landing-page-content__button:hover {
